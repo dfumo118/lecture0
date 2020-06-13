@@ -2,6 +2,7 @@
 <html>
   <head>
       <title>My Webpage!</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <style>
         div {
           font-family: Arial, sans-serif;
@@ -47,6 +48,11 @@
           background-color: lightblue;
         }
 
+        .col-6{
+          border: 2px solid black;
+          background-color: teal;
+        }
+
       </style>
   </head>
   <body>
@@ -72,5 +78,19 @@
       <form>
         <input type="text" name="name" placeholder="Type here">
       </form>
+
+      <div class="container">
+        <div class="row">
+          <div class="alert alert-primary">
+            The first one
+          </div>
+          <div class="col-6">
+            The second one
+          </div>
+          <div class="col-6">
+            The third one
+          </div>
+        </div>
+      </div>
   </body>
 </html>
